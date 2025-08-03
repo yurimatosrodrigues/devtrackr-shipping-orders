@@ -5,7 +5,7 @@ namespace DevTrackR.ShippingOrders.Core.Entities
 {
     public class ShippingOrder : EntityBase
     {
-        public ShippingOrder(string description, decimal weightInKg, DeliveryAdress deliveryAdress)
+        public ShippingOrder(string description, decimal weightInKg, DeliveryAddress deliveryAdress)
         {
             TrackingCode = GenerateTrackingCode();
             Description = description;
@@ -21,7 +21,7 @@ namespace DevTrackR.ShippingOrders.Core.Entities
         public string Description { get; private set; }
         public DateTime PostedAt { get; private set; }
         public decimal WeightInKg { get; private set; }
-        public DeliveryAdress DeliveryAddress { get; private set; }
+        public DeliveryAddress DeliveryAddress { get; private set; }
         public ShippingOrderStatus Status { get; private set; }
         public decimal TotalPrice { get; private set; }
         public List<ShippingOrderService> Services { get; private set; }

@@ -9,8 +9,8 @@
             FixedPrice = fixedPrice;
         }
 
-        public string Title { get; set; }
-        public decimal PricePerKg { get; set; }
-        public decimal FixedPrice { get; set; }
+        public string Title { get; private set; }
+        public decimal PricePerKg { get; private set; }
+        public decimal FixedPrice { get; private set; }
     }
 }
