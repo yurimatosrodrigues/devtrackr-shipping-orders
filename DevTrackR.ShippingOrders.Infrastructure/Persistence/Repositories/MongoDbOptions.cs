@@ -1,4 +1,4 @@
-﻿namespace DevTrackR.ShippingOrders.Infrastructure
+﻿namespace DevTrackR.ShippingOrders.Infrastructure.Persistence.Repositories
 {
     public class MongoDbOptions
     {
