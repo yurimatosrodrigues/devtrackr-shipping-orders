@@ -1,9 +1,6 @@
 ﻿using DevTrackR.ShippingOrders.Application.InputModels;
 using DevTrackR.ShippingOrders.Application.ViewModels;
-using DevTrackR.ShippingOrders.Core.Entities;
 using DevTrackR.ShippingOrders.Core.Repositories;
-using DevTrackR.ShippingOrders.Core.ValueObjects;
-using System.Text.Json;
 
 namespace DevTrackR.ShippingOrders.Application.Services
 {
