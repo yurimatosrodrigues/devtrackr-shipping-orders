@@ -2,8 +2,8 @@
 
 namespace DevTrackR.ShippingOrders.Infrastructure.Messaging
 {
-    public interface IServiceBusService
+    public interface IMessageBusService
     {
-        void Publish(object data, string routingKey);
+        Task PublishAsync(object data, string routingKey);
     }
 }
